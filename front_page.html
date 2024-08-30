@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Educational webpage</title>
+
+    <style>
+        body{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.topnav{
+    padding: 20px;
+    background-color: #FF7F50;
+}
+.topnav a{
+    color: darkblue;
+    padding: 15px 17px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topnav:hover{
+    background-color: rgb(235, 213, 135);
+}
+.topnav a:hover{
+    color: grey;
+}
+.head{
+    color: deeppink;
+    font-size: 30px;
+}
+
+.para{
+    color: grey;
+}
+#about{
+    padding: 20px;
+}
+.detail{
+    font-size: 20px;
+    padding: 50px;
+    background-color: lightgrey;
+}
+#button{
+    font-size: 20px;
+    color: white;
+    background-color: #007FFF;
+}
+    </style>
+</head>
+<body>
+    <img src="https://www.ssgmce.ac.in/images/newlogo2022%20copy.PNG">
+    <div class="topnav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#courses">Courses</a>
+    </div>
+    <h1 class="head">Emerge as a leading Institute for developing competent and creative Professionals.</h1>
+    <p class="para">Face challenges as opportunities, much like SSGMCE navigates
+        innovation. With determination and belief in your potential,<br>every hurdle become a 
+        stepping stone to success.
+    </p>
+    <div id="about">
+          <h1 style="color: #32CD32;">Technology waits for None! Join Us for Better Future Now!</h1>
+          <p>At SSGMCE, we provide top-tier education across various engineering disciplines, focusing on critical thinking, problem-solving, and innovation. Our programs are designed to equip students with the skills needed for successful careers in engineering and technology. We also engage in advanced research in fields such as AI, renewable energy, and robotics, with our faculty and students working on projects that address real-world challenges and have a tangible impact. join us!
+          </p>
+          |
+    </div>
+    <div class="detail">
+        <form>
+            Full Name: <input type="text" name="name" placeholder="First Name">
+            <input typr="text" placeholder="Surname"><br><br>
+            Full Address: <input type="text" name="Address" placeholder="Your Address">
+            <label for="state">State:</label>
+            <select id="state" name="state">
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Chattisgarh">Chattisgarh</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+            </select><br><br>
+            Short Introduction: <textarea rows="5" cols="40"></textarea><br>
+            <input id="button" type="submit" value="Submit">
+        </form>
+    </div>
+</body>
